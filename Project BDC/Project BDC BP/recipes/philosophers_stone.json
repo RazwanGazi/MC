@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bdc:philosophers_stone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CBC",
+			"BAB",
+			"CBC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:charcoal"
+			},
+			"B": {
+				"item": "minecraft:redstone"
+			},
+			"C": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"result": {
+			"item": "bdc:philosophers_stone"
+		}
+	}
+}

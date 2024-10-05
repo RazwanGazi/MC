@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bdc:philosophers_stone",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:fuel": {
+				"duration": 10000
+			},
+			"minecraft:display_name": {
+				"value": "Philosopher's Stone\n§fProject §cBD§aC"
+			},
+			"minecraft:icon": {
+				"texture": "philosophers_stone"
+			}
+		}
+	}
+}

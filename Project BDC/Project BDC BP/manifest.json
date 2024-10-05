@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Razwan Gazi"
+		]
+	},
+	"header": {
+		"name": "Project BDC",
+		"description": "Project E Equivalent of Bedrock",
+		"min_engine_version": [
+			1,
+			20,
+			30
+		],
+		"uuid": "bcdeef59-ab3d-44e0-aa70-889a3e854969",
+		"version": [
+			1,
+			1,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b052c508-3682-4d0e-94f9-af42bc1e9f52",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "b764444f-bd2d-4299-965f-cd15276853fb",
+			"entry": "scripts/bdemc.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bdc:transmutation_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CBC",
+			"BAB",
+			"CBC"
+		],
+		"key": {
+			"A": {
+				"item": "bdc:philosophers_stone"
+			},
+			"B": {
+				"item": "minecraft:stone"
+			},
+			"C": {
+				"item": "minecraft:obsidian"
+			}
+		},
+		"result": {
+			"item": "bdc:transmutation_table"
+		}
+	}
+}
